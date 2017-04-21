@@ -1,0 +1,76 @@
+
+*
+{
+	margin:0px;
+	padding:0px;
+        
+}
+
+body
+{
+    background-color:  	#F0F0F0 ;
+}
+
+.header
+{
+    background-color: #000;
+    color: #FFF;
+    height: 100px;
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 50px;
+}
+
+.footer
+{
+    background-color: #000;
+    color: #FFF;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 50px;
+    float: left;
+    width: 100%;
+}
+
+.dayDivision
+{
+    width:15%; 
+    float:left; 
+    padding-left:18px; 
+    padding-right:5px;
+}
+
+.dayDiv
+{
+    width:15%; 
+    float:left; 
+    padding-left:18px;
+    padding-right:5px;
+ 
+}
+
+.dateDiv
+{
+    width:15%; 
+    float:left; 
+    padding-left:18px; 
+    padding-right:5px;
+}
+
+.adminLogin
+{
+    margin-bottom:361px;
+}
+
+.field
+{
+    margin-left: 30%;
+    width: 500px;
+    height: 150px;
+}
+
+.adminTable
+{
+    margin-left: 20%;
+       
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>open</servlet-name>
+        <servlet-class>t.open</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>open</servlet-name>
+        <url-pattern>/open</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <context-param> 
+    <description>Location to store uploaded file</description> 
+    <param-name>file-upload</param-name> 
+    <param-value>
+         C:\xampp\apache-tomcat-8.0.15\webapps\surfast\web\admin\userImages\
+     </param-value> 
+</context-param>
+</web-app>
